@@ -48,8 +48,9 @@ const About = () => {
 
             <div>
                     
-                    <div className="col healthCheck">
-                    <p>physical therapists examine each person and then develops a treatment plan to improve their ability <br /> to move, reduce  or manage pain, restore function, and prevent disability.Physical <br /> therapists are movement experts  who improve quality  of life through <br /> prescribed exercise,  hands-on care.</p>
+                    <div className=" healthCheck">
+                    <h2 className='mb-2'>We Offer Different Treatment to your Pain</h2>
+                    <p>Physical therapy is often one of the best choices you can make when you have long-term pain (also called chronic pain) or an injury.<br />  It can make you stronger and help you move and feel better</p>
                     </div>
                 
         </div>

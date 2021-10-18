@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { getAuth, createUserWithEmailAndPassword,signInWithEmailAndPassword,updateProfile,signOut,onAuthStateChanged  } from "firebase/auth";
+import { getAuth, createUserWithEmailAndPassword,signInWithEmailAndPassword,updateProfile,signOut,onAuthStateChanged,GoogleAuthProvider,signInWithPopup   } from "firebase/auth";
 import initializeAuthentication from "../Firebase/firebase.init";
 
 initializeAuthentication()
@@ -13,7 +13,21 @@ const useFirebase = () => {
     const [isLogin,setIsLogin] = useState(false)
     const [isLoading,setIsLoading] = useState(true)
     // Auth
-    const auth = getAuth(); 
+    const auth = getAuth();
+    // SignIn Using Google 
+    const signInUsingGoogle = () => {
+        const googleProvider = new GoogleAuthProvider();
+        signInWithPopup(auth, googleProvider)
+            .then(result => {
+                console.log(result.user)
+            setUser(result.user)
+            })
+            .catch(error => {
+            setError(error.message)
+            })
+        
+    }
+
     // Form Registration 
     const handleRegistration = e => {
         e.preventDefault()
@@ -115,7 +129,8 @@ const useFirebase = () => {
         handleNameChange,
         setUserName,
         logout,
-        isLoading 
+        isLoading,
+        signInUsingGoogle,
     }
 }
 export default useFirebase;

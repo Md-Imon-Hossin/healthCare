@@ -29,16 +29,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding: 150px 0;
+  padding: 180px 0;
   position: relative;
   z-index: 1;
   background-attachment: fixed;
   color: #fff;
 }
-.healthCheck p {
-  line-height: 30px;
-  font-weight: 300;
-}
+
+/* .healthCheck h2 {
+  text-align: left;
+  margin-left: 5%;
+} */
 .healthCheck::after {
   content: "";
   display: block;

@@ -3,7 +3,7 @@ import useAuth from '../../hooks/useAuth';
 import './Login.css'
 const Login = () => {
 
-    const {handleRegistration,handleEmailChange,handlePasswordChange,error,toggleLogin,isLogin,handleNameChange} = useAuth()
+    const {handleRegistration,handleEmailChange,handlePasswordChange,error,toggleLogin,isLogin,handleNameChange,signInUsingGoogle} = useAuth()
     return (
         <div className='form-container'>
             <form onSubmit={handleRegistration}>
@@ -42,7 +42,10 @@ const Login = () => {
                 <div className="row mb-3 text-danger">
                     {error}
                 </div>
-  <button type="submit" className="btn btn-primary">{isLogin? "Login" :"Register"}</button>
+          <button type="submit" className="btn btn-primary">{isLogin ? "Login" : "Register"}</button>
+          <br />
+          <br />
+  <button onClick={signInUsingGoogle} className='btn btn-success'>Google SignIn</button>
 </form>
         </div>
     );
