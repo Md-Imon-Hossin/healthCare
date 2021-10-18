@@ -8,13 +8,12 @@ const Header = () => {
         <>
         <Navbar bg="dark" variant="dark"  collapseOnSelect expand="lg" sticky="top">
           <Container>
-                    <Navbar.Brand href="#home">Physical Therapy</Navbar.Brand>
-                    
+                    <Navbar.Brand href="#home">Physical Therapy</Navbar.Brand>                   
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                     <Nav.Link as={HashLink} className='text-white' to="/home">Home</Nav.Link>
                         <Nav.Link as={HashLink} className='text-white' to="/home#services">Services</Nav.Link>
-                        <Nav.Link as={HashLink} className='text-white' to="/about">About Us</Nav.Link>
+                        <Nav.Link as={HashLink} className='text-white' to="/about">About Us</Nav.Link>                       
                         {
                             user?.email ?
                             <button className='btn btn-danger' onClick={logout}>Logout</button>
@@ -23,19 +22,13 @@ const Header = () => {
 
                         }
                               <Nav.Link as={HashLink} className='text-white' to="/contact">Contact</Nav.Link>
-
-                        
-                        <Navbar.Text>
+                       { user?.email&& <Navbar.Text>
                             Signed in as: <a href="#login">{ user?.displayName}</a>
-      </Navbar.Text>
-    </Navbar.Collapse>
-          
+              </Navbar.Text>}              
+    </Navbar.Collapse>         
           </Container>
         </Navbar>
-        
-       
       </>
     );
 };
-
 export default Header;

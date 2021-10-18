@@ -1,4 +1,4 @@
-import { BrowserRouter,Switch,Route } from 'react-router-dom';
+import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './context/AuthProvider';
 import About from './pages/About/About';
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <AuthProvider>
-      <BrowserRouter>
+      <Router>
         <Header></Header>
         <Switch>
           <Route exact path='/'>
@@ -26,9 +26,7 @@ function App() {
             </Route>
           <Route path='/about'>
         <About></About>
-            </Route>
-          
-            
+            </Route>           
           <Route path='/login'>
         <Login></Login>
             </Route>
@@ -38,17 +36,14 @@ function App() {
           <PrivateRoute path='/details/:serviceId'>
       <Details></Details>
           </PrivateRoute>
-
           <Route path='*'>
         <NotFound></NotFound>
           </Route>
         </Switch>
         <Footer></Footer>
-      </BrowserRouter>
-      </AuthProvider>
-     
+      </Router>
+      </AuthProvider> 
     </div>
   );
 }
-
 export default App;

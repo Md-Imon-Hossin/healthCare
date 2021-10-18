@@ -25,9 +25,7 @@ const useFirebase = () => {
             .catch(error => {
             setError(error.message)
             })
-        
     }
-
     // Form Registration 
     const handleRegistration = e => {
         e.preventDefault()
@@ -40,11 +38,7 @@ const useFirebase = () => {
             setError('Password Must Contain 2 Uppercase')
             return 
         }
-      
-
         isLogin ?processLogin(email,password) : registrationNewUser(email,password)
-
-
     }
     // Registration New User
     const registrationNewUser = (email, password)=>{

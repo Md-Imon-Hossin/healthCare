@@ -22,7 +22,7 @@ const About = () => {
                         </div>
                         <div className="col-xl-8 col-lg-8 col-md-12">
                             <div className='our-clinic mt-4'>
-            <h2>About Our Clinic
+                        <h2>About Our Clinic
                                 </h2>
                                 <h5>Clinic, an organized medical service offering diagnostic, therapeutic, or preventive outpatient services.</h5>
                                 <p>information about allergies, illnesses, surgeries, immunizations, and results of physical exams and tests. It may also include information about medicines taken and health habits, such as diet and exercise.Insurer UnitedHealth to buy Everett Clinic operator for $4.9 billion as lines blur in health care. UnitedHealth will acquire DaVita's physician group for about $4.9 billion in cash
@@ -38,8 +38,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div>
-                    
+            <div>                    
                     <div className=" healthCheck">
                     <h2 className='mb-2'>We Offer Different Treatment to your Pain</h2>
                     <p>Physical therapy is often one of the best choices you can make when you have long-term pain (also called chronic pain) or an injury.<br />  It can make you stronger and help you move and feel better</p>
@@ -69,7 +68,6 @@ const About = () => {
                     </div>
                 </div>
             </div>
-
             <div className='staff pb-5'>
                 <div className="container">
                     <div className="row">
@@ -104,11 +102,9 @@ const About = () => {
                 <h5>Any problem by a sport, work accident etc._</h5>
                 <h2>we welcome the chance to serve you.
                 </h2>
-                </div>
-                
+                </div>               
             </div>           
 </section>                                    
-
     );
 };
 

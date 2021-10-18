@@ -2,7 +2,6 @@ import React from 'react';
 import useAuth from '../../hooks/useAuth';
 import './Login.css'
 const Login = () => {
-
     const {handleRegistration,handleEmailChange,handlePasswordChange,error,toggleLogin,isLogin,handleNameChange,signInUsingGoogle} = useAuth()
     return (
         <div className='form-container'>
@@ -45,7 +44,7 @@ const Login = () => {
           <button type="submit" className="btn btn-primary">{isLogin ? "Login" : "Register"}</button>
           <br />
           <br />
-  <button onClick={signInUsingGoogle} className='btn btn-success'>Google SignIn</button>
+  <button onClick={signInUsingGoogle} className='btn btn-secondary'>Google SignIn</button>
 </form>
         </div>
     );
