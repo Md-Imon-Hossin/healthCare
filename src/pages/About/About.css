@@ -1,3 +1,4 @@
+/* About Top Container */
 .about-container {
   background: url("../../images/about/about.png");
   background-repeat: no-repeat;
@@ -15,6 +16,7 @@
 .our-clinic {
   text-align: left;
 }
+/* Expert Info */
 .expert-info {
   text-align: left;
 }
@@ -24,6 +26,7 @@
 .expert-info h5 {
   font-style: italic;
 }
+/* HealthCheck Related */
 .healthCheck {
   background: url("../../images//about/1\ \(1\).jpg");
   background-repeat: no-repeat;
@@ -36,10 +39,6 @@
   color: #fff;
 }
 
-/* .healthCheck h2 {
-  text-align: left;
-  margin-left: 5%;
-} */
 .healthCheck::after {
   content: "";
   display: block;
@@ -51,6 +50,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: -1;
 }
+/* Accident Chance */
 .accident-chance {
   background: url("../../images//about//3.jpg");
   background-repeat: no-repeat;

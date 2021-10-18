@@ -1,3 +1,4 @@
+/* contact title */
 .contact-title {
   background: url("../..//images//contact/page-title8.jpg");
   background-size: cover;
@@ -21,6 +22,7 @@
 .contact-title h3 {
   font-weight: bold;
 }
+/* contact location */
 .contact-location-info {
   text-align: left;
 }
