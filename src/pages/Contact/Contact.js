@@ -51,24 +51,24 @@ const Contact = () => {
                     <div className="container">
                         <div className="row py-4">
                             <h2 className='mb-4'>Contact Us</h2>
-                            <div className="col-xl-2">                                
+                            <div className="col-xl-2 col-lg-2 col-md-2">                                
                             </div>
-                            <div className="col-xl-8">
+                            <div className="col-xl-8 col-lg-8 col-md-8">
                                 <form >
                                     <div className="row mb-3">
-                                        <div className="col-xl-6 mb-3">
+                                        <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                                         <input className='form-control ' placeholder='First Name' type="text" />
 
                                         </div>
-                                        <div className="col-xl-6 mb-3">
+                                        <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                                         <input className='form-control ' placeholder='Last Name' type="text" />
                                         </div>
                                 </div>
                                     <div className="row mb-3">
-                                        <div className="col-xl-6 mb-3">
+                                        <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                                         <input className='form-control ' placeholder='Email' type="text" />
                                         </div>
-                                        <div className="col-xl-6 mb-3">
+                                        <div className="col-xl-6 col-lg-6 col-md-6 mb-3">
                                         <input className='form-control ' placeholder='Number' type="text" />
                                         </div>
                                 </div>
@@ -84,7 +84,7 @@ const Contact = () => {
                                 </div>
                                 </form>
                             </div>
-                            <div className="col-xl-2">
+                            <div className="col-xl-2 col-lg-2 col-md-2">
                             </div>
                         </div>
                     </div>
