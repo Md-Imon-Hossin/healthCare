@@ -1,0 +1,17 @@
+@media (max-width: 576px) {
+  .carousel-caption {
+    margin-bottom: -53px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 346px) {
+  .carousel-caption h3,
+  p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 346px) {
+  .carousel-caption {
+    margin-bottom: -52px;
+  }
+}

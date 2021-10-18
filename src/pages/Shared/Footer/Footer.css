@@ -1,0 +1,12 @@
+.footer-left {
+  text-align: left;
+}
+
+.footer-right {
+  text-align: right;
+}
+.footer-para {
+  font-size: 14px;
+  color: #858585;
+  margin-top: 10px;
+}
