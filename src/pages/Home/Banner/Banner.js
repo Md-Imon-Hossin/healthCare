@@ -29,7 +29,7 @@ const Banner = () => {
     />
 
     <Carousel.Caption className='text-dark carousel-caption'>
-    <h3>We Give Solution To Your Pain</h3>
+    <h3>Professional Team Of Experts</h3>
       <p>Dr. Robert Joe is prepared to suggest remedial and rehabilitative activities, and also to give wholesome, dietary and way of life directing. </p>
     </Carousel.Caption>
   </Carousel.Item>
@@ -41,8 +41,8 @@ const Banner = () => {
     />
 
     <Carousel.Caption className='text-dark carousel-caption'>
-    <h3>We Give Solution To Your Pain</h3>
-      <p>Dr. Robert Joe is prepared to suggest remedial and rehabilitative activities, and also to give wholesome, dietary and way of life directing. </p>
+    <h3>Physio Therapy Of Services From Professional</h3>
+    <p>Dr. Robert Joe is prepared to suggest remedial and rehabilitative activities, and also to give wholesome, dietary and way of life directing. </p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

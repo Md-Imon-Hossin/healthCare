@@ -41,10 +41,11 @@ const Login = () => {
                 <div className="row mb-3 text-danger">
                     {error}
                 </div>
-          <button type="submit" className="btn btn-primary">{isLogin ? "Login" : "Register"}</button>
-          <br />
-          <br />
-  <button onClick={signInUsingGoogle} className='btn btn-secondary '>Google SignIn</button>
+          <button type="submit" className="btn btn-primary mx-2">{isLogin ? "Login" : "Register"}</button>
+          
+          <button onClick={signInUsingGoogle} className='btn btn-secondary mx-1'>Google SignIn</button>
+          
+  
   
 </form>
         </div>

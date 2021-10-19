@@ -22,7 +22,7 @@ const Header = () => {
 
                         }
                               <Nav.Link as={HashLink} className='text-white' to="/contact">Contact</Nav.Link>
-                       { user?.email&& <Navbar.Text>
+                       { user?.email && <Navbar.Text>
                             Signed in as: <a href="#login">{ user?.displayName}</a>
               </Navbar.Text>}              
     </Navbar.Collapse>         

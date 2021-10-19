@@ -35,7 +35,8 @@ function App() {
             </Route>
           <PrivateRoute path='/details/:serviceId'>
       <Details></Details>
-          </PrivateRoute>
+            </PrivateRoute> 
+          
           <Route path='*'>
         <NotFound></NotFound>
           </Route>
