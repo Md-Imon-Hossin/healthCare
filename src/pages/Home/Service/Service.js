@@ -8,7 +8,6 @@ const Service = ({ service }) => {
             <img className='img-fluid' src={img} alt="" />
             <h3 className='mt-3'>{name}</h3>
                 <p className='py-1'>{description}</p>
-                
                     <Link to={`/details/${id}`}>
                      <button className='btn btn-secondary mb-3 '>Details {name}</button>
                 </Link>
