@@ -8,4 +8,4 @@ Physical therapy: A branch of rehabilitative health that uses specially designed
 - Providing stimulation or massage to promote healing.
 - Assisting patients with the use of equipment such as wheelchairs or walkers .
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Physical Therapy](https://physical-therapy-f7c2a.web.app/)
