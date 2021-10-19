@@ -27,7 +27,6 @@ const Banner = () => {
       src={banner2}
       alt="Second slide"
     />
-
     <Carousel.Caption className='text-dark carousel-caption'>
     <h3>Professional Team Of Experts</h3>
       <p>Dr. Robert Joe is prepared to suggest remedial and rehabilitative activities, and also to give wholesome, dietary and way of life directing. </p>
@@ -39,7 +38,6 @@ const Banner = () => {
       src={banner3}
       alt="Third slide"
     />
-
     <Carousel.Caption className='text-dark carousel-caption'>
     <h3>Physio Therapy Of Services From Professional</h3>
     <p>Dr. Robert Joe is prepared to suggest remedial and rehabilitative activities, and also to give wholesome, dietary and way of life directing. </p>
@@ -49,5 +47,4 @@ const Banner = () => {
         </div>
     );
 };
-
 export default Banner;

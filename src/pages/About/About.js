@@ -8,8 +8,8 @@ import staff2 from '../../images/about/staff (2).jpg'
 import staff3 from '../../images/about/staff3.jpg'
 const About = () => {
     return (
-<section>
-<div className='about-container'>
+                <section>
+            <div className='about-container'>
              <h2>About us</h2>
             </div>
             <div className='about-clinic-details py-5'> 
@@ -71,7 +71,7 @@ const About = () => {
             <div className='staff pb-5'>
                 <div className="container">
                     <div className="row">
-        <h2 className='text-danger mb-3'>Our Staffs
+            <h2 className='text-danger mb-3'>Our Staffs
                         </h2>
                         <p className='mb-5'>A staff physical therapist works with people who are the victims of an accident, live <br /> with debilitating  diseases, and  have been confined to bed rest <br /> for a long period  of time, among other conditions</p>
                         <div className="col-lg-4">

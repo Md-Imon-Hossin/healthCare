@@ -6,15 +6,13 @@ const Login = () => {
     return (
         <div className='form-container'>
             <form onSubmit={handleRegistration}>
-                <h1 className='text-primary mb-4'>Please {isLogin ? 'Login' : 'Register'}</h1>
-                
+                <h1 className='text-primary mb-4'>Please {isLogin ? 'Login' : 'Register'}</h1>         
   {!isLogin && <div className="row mb-3">
     <label htmlFor="inputName3" className="col-sm-2 col-form-label">Name</label>
     <div className="col-sm-10">
       <input onBlur={handleNameChange} type="text" className="form-control" id="inputName3"/>
     </div>
-                </div>}
-                
+                </div>}     
   <div className="row mb-3">
     <label htmlFor="inputEmail3" className="col-sm-2 col-form-label">Email</label>
     <div className="col-sm-10">
@@ -27,7 +25,6 @@ const Login = () => {
       <input onBlur={handlePasswordChange} type="password" className="form-control" id="inputPassword3" required/>
     </div>
   </div>
-  
   <div className="row mb-3">
     <div className="col-sm-10 offset-sm-2">
       <div className="form-check">
@@ -44,12 +41,8 @@ const Login = () => {
           <button type="submit" className="btn btn-primary mx-2">{isLogin ? "Login" : "Register"}</button>
           
           <button onClick={signInUsingGoogle} className='btn btn-secondary mx-1'>Google SignIn</button>
-          
-  
-  
 </form>
         </div>
     );
 };
-
 export default Login;
