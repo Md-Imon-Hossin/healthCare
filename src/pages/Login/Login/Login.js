@@ -44,7 +44,8 @@ const Login = () => {
           <button type="submit" className="btn btn-primary">{isLogin ? "Login" : "Register"}</button>
           <br />
           <br />
-  <button onClick={signInUsingGoogle} className='btn btn-secondary'>Google SignIn</button>
+  <button onClick={signInUsingGoogle} className='btn btn-secondary '>Google SignIn</button>
+  
 </form>
         </div>
     );
