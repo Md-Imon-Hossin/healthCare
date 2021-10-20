@@ -1,0 +1,9 @@
+.card-span {
+  margin-bottom: 5px;
+  display: block;
+}
+@media (max-width: 778px) {
+  .card-span {
+    margin-bottom: 20px;
+  }
+}
