@@ -1,6 +1,6 @@
 # Physical Therapy
 
-Physical therapy: A branch of rehabilitative health that uses specially designed exercises and equipment to help patients regain or improve their physical abilities .
+Physical therapists examine each person and then develops a treatment plan to improve their ability to move, reduce or manage pain, restore function, and prevent disability.
 
 - Consulting with patients to learn about their physical condition and symptoms.
 - Diagnosing movement dysfunction and developing a treatment plan.
