@@ -64,7 +64,6 @@ const About = () => {
                                 <img src={signature} alt="" />
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -107,5 +106,4 @@ const About = () => {
 </section>                                    
     );
 };
-
 export default About;

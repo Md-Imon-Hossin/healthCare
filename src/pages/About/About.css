@@ -38,7 +38,6 @@
   background-attachment: fixed;
   color: #fff;
 }
-
 .healthCheck::after {
   content: "";
   display: block;
