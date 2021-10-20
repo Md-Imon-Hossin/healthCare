@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './Service.css'
 const Service = ({ service }) => {
-    const { id, img, name, description } = service;  
+    const { id, img, name, description } = service;
     return (
         <div className='col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-4'>
             <div className='Service-container h-100 shadow-sm'>
