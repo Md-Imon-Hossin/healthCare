@@ -1,6 +1,6 @@
 # Physical Therapy
 
-Physical therapists examine each person and then develops a treatment plan to improve their ability to move, reduce or manage pain, restore function, and prevent disability.
+Physical therapists help people manage pain and improve movement problems. Some pain and movement problems can become chronic and lead to surgery. Physical therapy helps to reduce the symptoms of many chronic diseases and conditions. It also can keep many problems from getting worse.
 
 - Consulting with patients to learn about their physical condition and symptoms.
 - Diagnosing movement dysfunction and developing a treatment plan.
