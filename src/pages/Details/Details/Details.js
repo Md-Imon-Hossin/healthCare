@@ -31,10 +31,10 @@ const Details = () => {
                         <Card className='h-100 ' >
                     <Card.Body>
              <Card.Title >
-                   <h3>{singleEmployee?.name}</h3>                 
+                   <h3 className='mb-3'>{singleEmployee?.name}</h3>                 
              </Card.Title>
                 <Card.Text>
-                <p>{singleEmployee?.description}</p>
+                {singleEmployee?.description}
             </Card.Text>
             </Card.Body>
                 </Card>
